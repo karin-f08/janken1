@@ -1,0 +1,62 @@
+body{
+    margin:50px 0 0 0 ;
+    padding:50px 0 0 0 ; 
+    text-align:center;
+    font-size: 100px;
+    background-color: yellow;
+}
+.comment{
+    font-size: 10px;
+
+}
+
+header{
+    background-color: #3399ff;
+    color: #FFF;
+    font-size: 150px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+main{
+    border-bottom:1px solid rgb(204, 204, 204);
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height:200px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #ff3399;
+    color:#fff;
+}
+
+.guu-btn{
+    display: inline-block;
+    padding: 35px 35px;
+    margin-top: 10px;
+    margin:10px 70px;
+    background-color: red;
+    border-bottom: solid 4px #627295;
+    border-radius: 100px;
+}
